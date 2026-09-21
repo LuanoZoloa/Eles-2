@@ -275,26 +275,27 @@ h1,h2,h3,h4,p{ margin:0; }
   padding:0 var(--pad) clamp(48px,8vh,96px);
   color:#fff;
 }
-.hero-eyebrow{
-  color:rgba(255,255,255,.8);
-  margin-bottom:18px;
-}
 .hero-title{
-  font-size:clamp(3rem, 9vw, 6.4rem);
+  font-family:var(--serif);
+  font-style:italic;
+  font-weight:400;
+  font-size:clamp(3.4rem, 10vw, 7.2rem);
   color:#fff;
 }
 .hero-title em{ font-style:italic; color:var(--rose); }
 .hero-sub{
   font-family:var(--serif);
   font-style:italic;
-  font-size:clamp(1.3rem, 2.6vw, 1.9rem);
-  color:rgba(255,255,255,.92);
-  margin-top:6px;
+  font-weight:300;
+  font-size:clamp(.95rem, 1.6vw, 1.15rem);
+  color:rgba(255,255,255,.55);
+  margin-top:10px;
 }
 .hero-actions{
   display:flex; gap:16px; flex-wrap:wrap;
   margin-top:38px;
 }
+.hero-actions .btn{ border-radius:8px; }
 .hero-scroll{
   position:absolute; z-index:2; right:var(--pad); bottom:28px;
   writing-mode:vertical-rl;
