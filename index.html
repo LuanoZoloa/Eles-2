@@ -1,215 +1,297 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>eles — Necochea</title>
-<meta name="description" content="eles. Cosmética, Necochea.">
-<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ELES Cosméticos — Necochea</title>
+<meta name="description" content="ELES Cosméticos. Tienda de cosmética en Necochea. Maquillaje, skincare y fragancias elegidas con cuidado.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💄</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-<nav class="nav">
-  <a href="index.html" class="nav-logo">eles</a>
-  <div class="nav-links">
-    <a href="coleccion.html">Colección</a>
-    <a href="marca.html">La marca</a>
-    <a href="experiencia.html">Experiencia</a>
-    <a href="contacto.html">Contacto</a>
-  </div>
-  <div class="nav-right">
-    <a href="coleccion.html" class="nav-cta">Ver colección</a>
-    <button class="nav-burger" aria-label="Abrir menú">
-      <span></span><span></span>
-    </button>
-  </div>
-</nav>
+<!-- ============ NAVBAR ============ -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">eles.<small>Cosméticos</small></a>
 
-<div class="mobile-menu">
-  <a href="coleccion.html">Colección</a>
-  <a href="marca.html">La marca</a>
-  <a href="experiencia.html">Experiencia</a>
-  <a href="contacto.html">Contacto</a>
-</div>
+    <nav class="nav-links">
+      <a class="nav-link" href="catalogo.html">Catálogo</a>
+      <a class="nav-link" href="#marcas">Marcas</a>
+      <a class="nav-link" href="#contacto">Contacto</a>
+    </nav>
 
-<!-- HERO -->
-<header class="hero">
-  <div class="hero-media">
-    <img src="https://picsum.photos/seed/eles-hero/1800/1200?grayscale" alt="eles — composición editorial de producto">
-  </div>
-  <div class="hero-content">
-    <h1 class="hero-mark">eles</h1>
-    <div class="hero-side">
-      <p>Necochea, Argentina. Cosmética con criterio.</p>
-      <a href="coleccion.html" class="btn btn-light">Explorar colección</a>
+    <div class="nav-actions">
+      <a class="nav-wa nav-wa-wrap" href="https://wa.me/5492262409156?text=Hola%20ELES!%20Quiero%20consultar%20por%20un%20producto." target="_blank" rel="noopener">
+        WhatsApp
+      </a>
+      <button class="hamburger" aria-label="Abrir menú"><span></span><span></span><span></span></button>
     </div>
   </div>
-  <span class="hero-scroll">Desplazate</span>
 </header>
 
-<!-- INTRO -->
-<section class="intro section-pad">
-  <div class="wrap intro-grid">
-    <p class="intro-statement reveal">eles no fabrica productos de más. Elige pocos, y los sostiene con atención.</p>
-    <div class="intro-side reveal">
-      <p class="lead">Una marca de cosmética nacida en Necochea, pensada para quienes prefieren lo esencial bien hecho antes que lo abundante.</p>
+<!-- ============ MENÚ MOBILE ============ -->
+<div class="mobile-menu">
+  <a href="index.html">Inicio</a>
+  <a href="catalogo.html">Catálogo</a>
+  <a href="#marcas">Marcas</a>
+  <a href="#contacto">Contacto</a>
+  <a class="mm-wa text-link" href="https://wa.me/5492262409156" target="_blank" rel="noopener">Escribinos por WhatsApp →</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-media">
+    <img src="img/hero.jpg" alt="Maquillaje profesional, retoque de pestañas — ELES Cosméticos">
+  </div>
+  <div class="hero-content container">
+    <span class="eyebrow hero-eyebrow">Necochea · Tienda de cosmética</span>
+    <h1 class="display hero-title">ELES.</h1>
+    <p class="hero-sub">Cosmética para habitarte.</p>
+    <div class="hero-actions">
+      <a href="catalogo.html" class="btn btn-light">Ver catálogo</a>
+      <a href="https://wa.me/5492262409156" target="_blank" rel="noopener" class="btn btn-solid">WhatsApp</a>
     </div>
+  </div>
+  <span class="hero-scroll">Scroll</span>
+</section>
+
+<!-- ============ INTRODUCCIÓN EDITORIAL ============ -->
+<section class="section intro">
+  <div class="container intro-inner reveal">
+    <span class="eyebrow">Eles. Cosméticos</span>
+    <h2 class="display">Belleza elegida para vos.</h2>
+    <p>Habitá armonía, habitá cuidado, habitá belleza. ELES es la tienda de cosmética de Necochea donde el maquillaje, el skincare y las fragancias se eligen con calma — no se acumulan.</p>
   </div>
 </section>
 
-<!-- COLECCIÓN DESTACADA -->
-<section class="pieces section-pad">
-  <div class="wrap">
+<!-- ============ CATEGORÍAS ============ -->
+<section class="section" style="padding-top:0;">
+  <div class="container">
     <div class="section-head reveal">
-      <h2 class="display-md">Piezas destacadas</h2>
-      <a href="coleccion.html" class="btn btn-ghost">Ver toda la colección</a>
+      <span class="eyebrow">Explorá</span>
+      <h2 class="display">Categorías</h2>
     </div>
-  </div>
-  <div class="wrap">
-    <div class="piece-grid">
-      <a href="producto.html" class="piece reveal">
-        <div class="piece-media"><img src="https://picsum.photos/seed/eles-p1/900/1200?grayscale" alt="Producto eles 01"></div>
-        <div class="piece-info">
+
+    <div class="cat-grid reveal">
+      <a href="catalogo.html?cat=maquillaje" class="cat-card">
+        <img src="img/shelf.jpg" alt="Exhibidor de maquillaje en ELES Cosméticos">
+        <div class="cat-body">
           <div>
-            <div class="piece-name">Óleo N°1</div>
-            <div class="piece-cat">Rostro</div>
+            <span class="cat-num">01</span>
+            <div class="cat-name">Maquillaje</div>
           </div>
-          <span class="piece-link">Ver</span>
+          <span class="cat-arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
         </div>
       </a>
-      <a href="producto.html" class="piece reveal">
-        <div class="piece-media"><img src="https://picsum.photos/seed/eles-p2/900/1200?grayscale" alt="Producto eles 02"></div>
-        <div class="piece-info">
+
+      <a href="catalogo.html?cat=skincare" class="cat-card no-photo">
+        <div class="cat-body">
           <div>
-            <div class="piece-name">Bálsamo N°2</div>
-            <div class="piece-cat">Cuerpo</div>
+            <span class="cat-num">02</span>
+            <div class="cat-name">Skincare</div>
           </div>
-          <span class="piece-link">Ver</span>
+          <span class="cat-arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
         </div>
       </a>
-      <a href="producto.html" class="piece reveal">
-        <div class="piece-media"><img src="https://picsum.photos/seed/eles-p3/900/1200?grayscale" alt="Producto eles 03"></div>
-        <div class="piece-info">
+
+      <a href="catalogo.html?cat=fragancias" class="cat-card no-photo">
+        <div class="cat-body">
           <div>
-            <div class="piece-name">Esencia N°3</div>
-            <div class="piece-cat">Fragancias</div>
+            <span class="cat-num">03</span>
+            <div class="cat-name">Fragancias</div>
           </div>
-          <span class="piece-link">Ver</span>
+          <span class="cat-arrow" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </span>
         </div>
       </a>
     </div>
   </div>
 </section>
 
-<!-- EXPERIENCIA -->
-<section class="experience section-pad">
-  <div class="wrap exp-grid">
-    <div class="exp-media reveal">
-      <img src="https://picsum.photos/seed/eles-exp/900/1100?grayscale" alt="Detalle de textura, eles">
+<!-- ============ DESTACADOS ============ -->
+<section class="section">
+  <div class="container">
+    <div class="dest-head reveal">
+      <div class="section-head" style="margin-bottom:0;">
+        <span class="eyebrow">En la tienda</span>
+        <h2 class="display">Destacados</h2>
+      </div>
+      <a href="catalogo.html" class="text-link">Ver catálogo completo →</a>
     </div>
-    <div class="reveal">
-      <span class="eyebrow">Experiencia</span>
-      <h2 class="display-md" style="margin-top:14px;">Cada producto llega acompañado de atención, no solo de packaging.</h2>
-      <div class="exp-list">
-        <div class="exp-item">
-          <span class="num">01</span>
-          <div>
-            <h3>Selección</h3>
-            <p>Un catálogo reducido, revisado antes de sumar cualquier pieza nueva.</p>
-          </div>
-        </div>
-        <div class="exp-item">
-          <span class="num">02</span>
-          <div>
-            <h3>Asesoramiento</h3>
-            <p>Consulta directa antes y después de la compra, sin intermediarios.</p>
-          </div>
-        </div>
-        <div class="exp-item">
-          <span class="num">03</span>
-          <div>
-            <h3>Cercanía</h3>
-            <p>Una marca hecha desde Necochea, con trato directo con quien compra.</p>
-          </div>
-        </div>
+  </div>
+
+  <div class="prod-grid reveal">
+    <article class="prod-card">
+      <div class="prod-figure"><img src="img/shelf.jpg" alt="Revlon PhotoReady BB Cream"></div>
+      <div>
+        <span class="prod-brand">Revlon</span>
+        <h3 class="prod-name">PhotoReady BB Cream</h3>
+      </div>
+      <div class="prod-foot">
+        <span class="prod-price">Disponible en ELES</span>
+        <a class="text-link" style="font-size:.65rem" href="https://wa.me/5492262409156?text=Hola!%20Quiero%20consultar%20por%20Revlon%20PhotoReady%20BB%20Cream" target="_blank" rel="noopener">Consultar</a>
+      </div>
+    </article>
+
+    <article class="prod-card">
+      <div class="prod-figure"><span class="ph-mark">M.</span></div>
+      <div>
+        <span class="prod-brand">MILA</span>
+        <h3 class="prod-name">Base alta cobertura</h3>
+      </div>
+      <div class="prod-foot">
+        <span class="prod-price">Consultar</span>
+        <a class="text-link" style="font-size:.65rem" href="https://wa.me/5492262409156?text=Hola!%20Quiero%20consultar%20por%20la%20Base%20alta%20cobertura%20MILA" target="_blank" rel="noopener">Consultar</a>
+      </div>
+    </article>
+
+    <article class="prod-card">
+      <div class="prod-figure"><span class="ph-mark">H.D.</span></div>
+      <div>
+        <span class="prod-brand">Hernán Drago</span>
+        <h3 class="prod-name">Simple Azul</h3>
+      </div>
+      <div class="prod-foot">
+        <span class="prod-price">Consultar</span>
+        <a class="text-link" style="font-size:.65rem" href="https://wa.me/5492262409156?text=Hola!%20Quiero%20consultar%20por%20la%20fragancia%20Simple%20Azul%20de%20Hern%C3%A1n%20Drago" target="_blank" rel="noopener">Consultar</a>
+      </div>
+    </article>
+
+    <article class="prod-card">
+      <div class="prod-figure"><span class="ph-mark">L.</span></div>
+      <div>
+        <span class="prod-brand">L'Oréal Paris</span>
+        <h3 class="prod-name">Infallible Concealer</h3>
+      </div>
+      <div class="prod-foot">
+        <span class="prod-price">Consultar</span>
+        <a class="text-link" style="font-size:.65rem" href="https://wa.me/5492262409156?text=Hola!%20Quiero%20consultar%20por%20el%20Infallible%20Concealer%20de%20L%27Or%C3%A9al" target="_blank" rel="noopener">Consultar</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ MARCAS ============ -->
+<section id="marcas" class="section brands">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">En ELES vas a encontrar</span>
+      <h2 class="display" style="color:var(--paper)">Marcas</h2>
+    </div>
+
+    <div class="brand-list reveal">
+      <div class="brand-row"><span class="name">MILA</span><span class="tag">Maquillaje profesional</span></div>
+      <div class="brand-row"><span class="name">Hernán Drago</span><span class="tag">Fragancias</span></div>
+      <div class="brand-row"><span class="name">Revlon</span><span class="tag">Maquillaje</span></div>
+      <div class="brand-row"><span class="name">Maybelline</span><span class="tag">Maquillaje</span></div>
+      <div class="brand-row"><span class="name">L'Oréal Paris</span><span class="tag">Maquillaje</span></div>
+      <div class="brand-row"><span class="name">La Puissance</span><span class="tag">Skincare</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDITORIAL / BEAUTY ============ -->
+<section class="split reveal">
+  <div class="split-media">
+    <img src="img/editorial-beauty.jpg" alt="Aplicación de maquillaje en ELES Cosméticos">
+  </div>
+  <div class="split-copy">
+    <span class="eyebrow">Maquillaje</span>
+    <h2 class="display">Cada rostro, <em class="serif-italic">una elección distinta.</em></h2>
+    <p>En el mostrador de ELES el maquillaje se prueba, se conversa y se elige a medida — nunca se despacha a las apuradas.</p>
+    <a href="catalogo.html?cat=maquillaje" class="text-link">Descubrir →</a>
+  </div>
+</section>
+
+<!-- ============ VISITANOS ============ -->
+<section class="visit">
+  <div class="visit-media">
+    <img src="img/visitanos.jpg" alt="Interior de la tienda ELES Cosméticos en Necochea">
+  </div>
+  <div class="container visit-inner reveal">
+    <h2 class="display">Visitanos</h2>
+    <p class="place">Necochea</p>
+    <p>Pasá por la tienda para probar antes de elegir, o escribinos y te asesoramos por WhatsApp.</p>
+    <div class="visit-actions">
+      <a href="https://wa.me/5492262409156?text=Hola%20ELES!%20Quiero%20consultar%20sobre%20la%20tienda." target="_blank" rel="noopener" class="btn btn-light">Escribinos por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSTAGRAM ============ -->
+<section class="section igcta">
+  <div class="container reveal">
+    <span class="eyebrow">Seguinos</span>
+    <p class="ig-quote">“Habitá armonía, habitá cuidado, habitá belleza, habitá eles…”</p>
+    <div class="at">@eles.cosmeticos</div>
+    <a href="https://instagram.com/eles.cosmeticos" target="_blank" rel="noopener" class="text-link">Seguir en Instagram →</a>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section id="contacto" class="section" style="padding-top:0;">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Hablemos</span>
+      <h2 class="display">Contacto</h2>
+    </div>
+    <div class="contact-grid reveal">
+      <a class="contact-item" href="https://wa.me/5492262409156" target="_blank" rel="noopener">
+        <span class="label">WhatsApp</span>
+        <span class="value">+54 9 2262 40-9156</span>
+      </a>
+      <a class="contact-item" href="https://instagram.com/eles.cosmeticos" target="_blank" rel="noopener">
+        <span class="label">Instagram</span>
+        <span class="value">@eles.cosmeticos</span>
+      </a>
+      <div class="contact-item">
+        <span class="label">Ubicación</span>
+        <span class="value">Necochea, Argentina</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- EDITORIAL -->
-<section class="editorial reveal">
-  <img src="https://picsum.photos/seed/eles-editorial/1800/1400?grayscale" alt="Campaña eles">
-  <div class="editorial-cap">
-    <span class="eyebrow">Campaña</span>
-    <p>Lo esencial, sostenido en el tiempo.</p>
-  </div>
-</section>
-
-<!-- CATEGORÍAS -->
-<section class="categories section-pad">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <h2 class="display-md">Categorías</h2>
-    </div>
-    <div class="cat-row reveal">
-      <a href="coleccion.html?cat=rostro" class="cat-item">
-        <h3>Rostro</h3>
-        <div class="cat-meta"><span class="cat-count">Próximamente</span><span class="arrow">→</span></div>
-      </a>
-      <a href="coleccion.html?cat=cuerpo" class="cat-item">
-        <h3>Cuerpo</h3>
-        <div class="cat-meta"><span class="cat-count">Próximamente</span><span class="arrow">→</span></div>
-      </a>
-      <a href="coleccion.html?cat=fragancias" class="cat-item">
-        <h3>Fragancias</h3>
-        <div class="cat-meta"><span class="cat-count">Próximamente</span><span class="arrow">→</span></div>
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- CIERRE -->
-<section class="closing">
-  <div class="wrap">
-    <h2 class="display-lg reveal">Una marca que se explica sola.</h2>
-    <div class="closing-actions reveal">
-      <a href="coleccion.html" class="btn btn-light">Ver colección</a>
-      <a href="contacto.html" class="btn" style="color:#fff;border-color:rgba(255,255,255,.5);">Contacto</a>
-    </div>
-  </div>
-</section>
-
-<footer class="site-footer">
-  <div class="wrap">
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
     <div class="footer-top">
       <div>
-        <div class="footer-brand">eles</div>
-        <p style="font-size:.88rem; opacity:.6; max-width:32ch;">Cosmética hecha desde Necochea, Argentina.</p>
+        <a href="index.html" class="logo">eles.<small>Cosméticos</small></a>
       </div>
-      <div class="footer-col">
-        <h4>Navegación</h4>
-        <a href="coleccion.html">Colección</a>
-        <a href="marca.html">La marca</a>
-        <a href="experiencia.html">Experiencia</a>
-      </div>
-      <div class="footer-col">
-        <h4>Contacto</h4>
-        <a href="contacto.html">Escribinos</a>
-        <a href="https://wa.me/5492262000000" target="_blank" rel="noopener">WhatsApp</a>
-      </div>
-      <div class="footer-col">
-        <h4>Redes</h4>
-        <a href="#" target="_blank" rel="noopener">Instagram</a>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Sitio</h4>
+          <a href="catalogo.html">Catálogo</a>
+          <a href="#marcas">Marcas</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <div class="footer-col">
+          <h4>Seguinos</h4>
+          <a href="https://instagram.com/eles.cosmeticos" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://wa.me/5492262409156" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <div class="footer-col">
+          <h4>Tienda</h4>
+          <p>Necochea, Argentina</p>
+        </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 eles. Necochea, Argentina.</span>
-      <span>Todos los derechos reservados.</span>
+      <span>© <span id="year"></span> ELES Cosméticos</span>
+      <span>Necochea, Argentina</span>
     </div>
   </div>
 </footer>
 
-<script src="js/script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
 </body>
 </html>
