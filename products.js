@@ -98,7 +98,7 @@ const ELES_PRODUCTS = [
     name: "PhotoReady BB Cream",
     category: "maquillaje",
     note: "Disponible en ELES",
-    img: "img/shelf.jpg"
+    img: "shelf.jpg"
   },
   {
     id: "la-puissance-ampollas",
